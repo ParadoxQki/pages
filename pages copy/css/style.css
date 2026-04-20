@@ -61,7 +61,7 @@ h3 {
 h4 {
     font-size: 30px;
     color: #777;
-    text-align: left;
+    text-align: center;
     margin-left: 20px;
     line-height: 1.5;
 }
@@ -111,6 +111,39 @@ div.text-container {
     padding: 20px;
     background: linear-gradient(to bottom, #feeeee, #ffffff);
 }
+div.text-container-box ul{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #feeeee, #ffffff);
+    list-style-type: none;
+}
+
+li:nth-child(3n+1){
+    border: 2px solid #ffb1b1;
+    padding: 20px;
+}
+
+li:nth-child(3n+2){
+    border: 2px solid #ffffff;
+    background-color: #ffdcdc;
+    padding: 20px;
+}
+li:nth-child(3n+3){
+    border: 2px solid #000000;
+    background-color: #000000;
+    color: #ff9a9a;
+    border-radius: 90px;
+    padding: 20px;
+}
+
+li:hover{
+    border: 10px;
+    padding: 20px;
+    
+}
+
 .grid {
     width: 80%;
     display:grid;
@@ -124,15 +157,16 @@ div.text-container {
     padding: 20px;
 }
 .flex {
-    display: block-inline;
+    display: flex;
+    flex-wrap: row wrap;
     justify-content: center;
-    gap: 20px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    background-color: #ffffff;
+    gap: 10px;
 }
+.flex img{
+    width: 10%;
+    height: 10%;
+}
+
 .on{
     color:#e07070;
 }
@@ -140,12 +174,15 @@ div.text-container {
     color:#ffffff;
 }
 
-img{
-    border:#333;
-    padding: 20px;
-
-
+img:hover{
+    transform:scale(120%);
 }
+img {
+    border: #ffd6d6 solid 2px;
+    border-radius: 90px;
+    padding: 2px;
+}
+
 
 table {
     border-collapse: collapse;
