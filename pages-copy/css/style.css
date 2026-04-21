@@ -79,11 +79,10 @@ ol {
     line-height: 1.5;
 }
 a {
-    color: #f62f2f;
+    color: #700000;
     text-decoration: none;
 }
 a:hover {
-    color: #fa9c9c;
     text-transform: uppercase;
 }
 nav {
@@ -132,13 +131,13 @@ li:nth-child(3n+1){
 
 li:nth-child(3n+2){
     border: 2px solid #ffffff;
-    background-color: #ffdcdc;
+    background-color: #ffe9e9;
     padding: 20px;
 }
 li:nth-child(3n+3){
     border: 1px solid #000000;
-    background-color: #000000;
-    color: #f62f2f;
+    background-color: #ffffff;
+    color: #000;
     border-radius: 90px;
     padding: 20px;
 }
