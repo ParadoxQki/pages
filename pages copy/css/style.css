@@ -178,6 +178,7 @@ li:hover{
 img:hover{
     transform:scale(120%);
 }
+
 img {
     border: #ffd6d6 solid 2px;
     border-radius: 90px;
