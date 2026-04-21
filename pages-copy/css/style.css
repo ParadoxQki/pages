@@ -173,7 +173,10 @@ li:hover{
 }
 
 .on{
-    color:#54fd48;
+    color:#ffffff;
+    border: #000000 solid 10px;
+    border-radius: 50px;
+    background-color: #000000;
 }
 .off{
     color:#2e2d2d;
