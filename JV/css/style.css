@@ -7,12 +7,12 @@ body{
     line-height:650px;
 		width: 575px;
     height: 650px;
-		border:5px solid black;
+		border:5px solid rgb(255, 255, 255);
 		margin:0 auto;
-    background-color: #8e68ff;
+    background-color: #000000;
     background-image: url('');
     background-repeat: no-repeat;
-    color:#FFFFFF;
+    color:#ffffff;
     text-align: center;
     background-size: 100%;
     margin-bottom:25px;
@@ -20,7 +20,7 @@ body{
 }
 .preview{
 		width:10%;
-		margin-left:17%;
+    margin-left:4%;
     border: 10px solid black;
 }
 img{
