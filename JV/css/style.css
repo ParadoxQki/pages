@@ -26,3 +26,8 @@ body{
 img{
 		width:95%;
 }
+
+img:hover, img:focus {
+    opacity : 1;
+    border: 10px solid white;
+}
