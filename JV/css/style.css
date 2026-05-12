@@ -35,18 +35,20 @@ img:hover, img:focus {
     opacity : 1;
     border: 10px solid #ffffff;
 }
-@media screen and (max-width: 1400px) {
-  body{
-  background-color: #00ff22;
+
+@media screen and (min-width: 772px) {
+  div{
+    display: inline-block;
+    width: 45vw;
+  }
+  div #image{
+    max-height: 30vh;
   }
 }
-@media screen and (max-width: 1200px) {
-  body{
-  background-color: #0004ff;
+
+@media screen and (min-width: 998px) {
+  div{
+    width: 30vw;
   }
 }
-@media screen and (max-width: 1000px) {
-  body{
-  background-color: #ff0000;
-  }
-}
+
